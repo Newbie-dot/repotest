@@ -20,6 +20,6 @@ steps:
     location: 'West Europe'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/Newbie-dot/repotest/master/CreateWebApp/azuredeploy.json'
-    overrideParameters: -projectName myarmpipeline'
+    overrideParameters: -projectName newArm'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
