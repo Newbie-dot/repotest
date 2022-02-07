@@ -10,7 +10,6 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
@@ -21,6 +20,5 @@ steps:
     location: 'West Europe'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/Newbie-dot/repotest/master/CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName myarmpipeline'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
