@@ -17,7 +17,7 @@ steps:
     subscriptionId: '67e3289f-ecc9-44ab-840b-20eb34d81fd6'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'BRYZ-Test-RG'
-    location: 'West Europe'
+    location: 'Central US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/Newbie-dot/repotest/master/CreateWebApp/azuredeploy.json'
     overrideParameters: '-projectName armpipelinetemp'
